@@ -20,7 +20,7 @@ function StepProgress () {
         </span>
         <span className={styles.progressBar} data-order="2"></span>
         <span className={styles.progressGroup} data-phase="credit-card">
-          <span className="progress-icon">
+          <span className="progressIcon">
             <span className="text">3</span>
           </span>
           <span className={styles.progressLabel}>付款資訊</span>
