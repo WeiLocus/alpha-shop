@@ -1,8 +1,8 @@
-import styles from '../step/step_panel.module.css'
-import SelectLocation from '../step/SelectLocation.js'
-import LocationOption from  '../step/LocationOption.js'
+import styles from '../Step/Step.module.css'
+import SelectLocation from '../Step/SelectLocation'
+import LocationOption from  '../Step/LocationOption'
 
-export default function Step1 () {
+export default function Step () {
   return (
     <div>
       <form className={styles.stepPanel} data-phase="address">
@@ -38,7 +38,7 @@ export default function Step1 () {
               <input type="email" placeholder="請輸入電子郵件" />
             </div>
           </div>
-          <div class={styles.line}>
+          <div className={styles.line}>
             <div className={styles.inputGroup}>
               <div className={styles.inputLabel}>縣市</div>
               <div className="selectContainer">

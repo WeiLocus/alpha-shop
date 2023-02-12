@@ -1,9 +1,9 @@
 import styles from './app.module.css';
-import StepProgress from "./components/step-progress/StepProgress.js";
-import Step1 from "./components/step/Step1.js";
-import Step2 from './components/step/Step2.js';
-import Step3 from './components/step/Step3.js';
-import ProgressControl from './components/progress-control/ProgressControl.js'
+import StepProgress from "./components/StepProgress/StepProgress";
+import Step from "./components/Step/Step";
+import StepTwo from './components/Step/StepTwo';
+import StepThree from './components/Step/StepThree';
+import ProgressControl from './components/ProgressControl/ProgressControl'
 
 
 function App() {
@@ -11,9 +11,9 @@ function App() {
     <div className={styles.container}>
       <StepProgress />
       <div className={styles.stepWrapper}>
-        {/* <Step1 />
-        <Step2 /> */}
-        <Step3 />
+        <Step />
+        {/* <StepTwo />
+        <StepThree /> */}
         <ProgressControl />
       </div>
     </div>

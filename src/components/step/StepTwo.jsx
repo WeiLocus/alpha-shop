@@ -1,6 +1,6 @@
-import styles from '../step/step2.module.css'
+import styles from '../Step/StepTwo.module.css'
 
-export default function Step2 () {
+export default function StepTwo () {
   return (
     <div>
       <form className={styles.stepPanel} data-phase="shipping">
