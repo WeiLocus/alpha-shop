@@ -1,8 +1,8 @@
 import styles from '../step/step_panel.module.css'
-import SelectLocation from '../step/selectLocation.js'
+import SelectLocation from '../step/SelectLocation.js'
 import LocationOption from  '../step/LocationOption.js'
 
-export default function StepPanel1 () {
+export default function Step1 () {
   return (
     <div>
       <form className={styles.stepPanel} data-phase="address">

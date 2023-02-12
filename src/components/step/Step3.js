@@ -1,6 +1,6 @@
 import styles from '../step/step_panel.module.css'
 
-export default function StepPanel3 () {
+export default function Step3 () {
   return (
     <div>
       <form className={styles.stepPanel} data-phase="credit-card">

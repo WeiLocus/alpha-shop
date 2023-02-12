@@ -25,3 +25,21 @@
 .progressLabel {
   margin: 0 6px;
 }
+
+.progressIcon {
+  display: inline-block;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.text {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  line-height: 24px;
+  text-align: center;
+
+}

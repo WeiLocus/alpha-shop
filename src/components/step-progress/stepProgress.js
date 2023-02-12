@@ -1,6 +1,6 @@
 
-import styles from './step_Progress.module.css'
-import {ReactComponent as Complete} from '../icons/pg-complete.svg'
+import styles from './step_progress.module.css'
+import {ReactComponent as Complete} from '../../assets/icons/pg-complete.svg'
 
 function StepProgress () {
   return (
@@ -20,8 +20,8 @@ function StepProgress () {
         </span>
         <span className={styles.progressBar} data-order="2"></span>
         <span className={styles.progressGroup} data-phase="credit-card">
-          <span className="progressIcon">
-            <span className="text">3</span>
+          <span className={styles.progressIcon}>
+            <span className={styles.text}>3</span>
           </span>
           <span className={styles.progressLabel}>付款資訊</span>
         </span>

@@ -1,6 +1,6 @@
 import styles from '../progress-control/progress_control.module.css'
-import {ReactComponent as LeftArrow} from '../icons/left-arrow.svg'
-import {ReactComponent as RightArrow} from '../icons/right-arrow.svg'
+import {ReactComponent as LeftArrow} from '../../assets/icons/left-arrow.svg'
+import {ReactComponent as RightArrow} from '../../assets/icons/right-arrow.svg'
 
 export default function ProcessControl () {
   return (
