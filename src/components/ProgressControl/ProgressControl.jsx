@@ -6,61 +6,56 @@ export default function ProcessControl () {
   return (
     <div>
       <div className={styles.hr}></div>
+        <StepOneProgressControl />
+        {/* <StepTwoProgressControl />
+        <StepThreeProgressControl /> */}
+    </div>
+  )
+}
+
+function PrevBtn () {
+  return (<button className={styles.prev}><LeftArrow /> 上一步 </button>
+  )
+}
+
+function NextBtn () {
+    return ( <button className={styles.next}> 下一步 <RightArrow /></button>
+  )
+}
+
+function OrderBtn () {
+  return (<button className={styles.next}>確定下單</button>
+  )
+}
+
+function StepOneProgressControl () {
+  return (
+    <div>
+      <section className={styles.buttonGroup} data-phase="address">
+        <NextBtn/>
+      </section>
+    </div>
+  )
+}
+
+function StepTwoProgressControl () {
+  return (
+    <div>
       <section className={styles.buttonGroup} data-phase="shipping">
         <PrevBtn />
         <NextBtn/>
       </section>
     </div>
-
   )
 }
 
-function PrevBtn () {
+function StepThreeProgressControl () {
   return (
-    <>
-      <button className={styles.firstPrev}>
-        <LeftArrow /> 上一步 
-      </button>
-    </>
+    <div>
+      <section className={styles.buttonGroup} data-phase="credit-card">
+        <PrevBtn />
+        <OrderBtn />
+      </section>
+    </div>
   )
 }
-
-function NextBtn () {
-    return (
-    <>
-      <button className={styles.next}>
-        下一步 <RightArrow />
-      </button>
-    </>
-  )
-}
-
-// function ProcessControlTwo () {
-//     return (
-//     <div>
-//       <div className={styles.hr}></div>
-//       <section className={styles.buttonGroup} data-phase="shipping">
-//         <button className={styles.prev}>
-//           <LeftArrow /> 上一步 
-//         </button>
-//         <NextBtn />
-//       </section>
-//     </div>
-//   )
-// }
-
-// function ProcessControlFinal () {
-//     return (
-//     <div>
-//       <div className={styles.hr}></div>
-//       <section className={styles.buttonGroup} data-phase="shipping">
-//         <button className={styles.prev}>
-//           <LeftArrow /> 上一步 
-//         </button>
-//         <button className={styles.next}>
-//           確認下單
-//         </button>
-//       </section>
-//     </div>
-//   )
-// }
