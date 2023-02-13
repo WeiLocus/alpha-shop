@@ -1,0 +1,32 @@
+.stepPanel {
+  margin-bottom: 50px;
+}
+
+.line {
+  display: flex;;
+  margin-bottom: 1rem;
+}
+
+.inputGroup {
+margin-right:20px;
+}
+
+.inputLabel {
+  color: #555555;
+  margin-bottom: 5px;
+}
+
+select, input {
+  border-radius: 5px;
+  padding: 6px;
+  border: 1px solid #555555;
+  cursor: pointer;
+}
+select:invalid {
+  color: #747474;
+}
+
+/* creditCardContainer */
+.creditCardContainer input{
+  width: 200px;
+}
