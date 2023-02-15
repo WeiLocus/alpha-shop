@@ -4,7 +4,7 @@ import LocationOption from  '../Step/LocationOption'
 
 export default function Step () {
   return (
-    <div>
+    <>
       <form className={styles.stepPanel} data-phase="address">
         <h3 className="formTitle">寄送地址</h3>
         <section className={styles.infoContainer}>
@@ -52,6 +52,6 @@ export default function Step () {
           </div>
         </section>
       </form>
-    </div>
+    </>
   )
 }

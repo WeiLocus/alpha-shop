@@ -1,0 +1,58 @@
+.siteFooter {
+  display: block;
+  position: relative;
+  bottom: 0;
+  margin-top: 120px;
+  padding: 0 1rem;
+  background-color: #F6F7F8;
+}
+
+.footerSection {
+  margin-bottom: 20px;
+}
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footerLogoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #2A2A2A;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  color: #808080;
+}
+
+.pageLink {
+  line-height: 1.2rem;
+  margin-bottom: 5px;
+  color: #808080;
+}
+
+.socialIconGroup {
+  margin-top: 10px;
+}
+.socialIcon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+@media  screen and (max-width: 750px) {
+  .siteFooter {
+    display: none;
+  }
+}
+

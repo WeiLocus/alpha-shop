@@ -1,0 +1,57 @@
+.cartContainer {
+  margin-top: 90px;
+  padding: 0 20px;
+  border: 1px solid #F0F0F5;
+  border-radius: 8px;
+  width: 400px;
+  margin-bottom: 80px;
+}
+
+.productContainer {
+  display: flex;
+  margin: 20px 0;
+  flex-wrap: nowrap;
+}
+
+.imgContainer {
+  width: 100px;
+  height: 100px;
+}
+
+.productInfo {;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  align-content: flex-start;
+  margin-left: 10px;
+}
+
+.productName {
+    max-width:60%;
+    margin-right: auto;
+}
+.productControlContainer {
+  width: 100%;
+  /* 順序第一個 */
+  order: 1;
+}
+.productControl {
+  /* background-color: lightcoral; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.cartInfo {
+  border-top: 1px solid #F0F0F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.action {
+  cursor: pointer;
+}

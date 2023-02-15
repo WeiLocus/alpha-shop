@@ -2,7 +2,7 @@ import styles from '../Step/Step.module.css'
 
 export default function StepThree () {
   return (
-    <div>
+    <>
       <form className={styles.stepPanel} data-phase="credit-card">
         <h3 className="formTitle">付款資訊</h3>
         {/* creditCardContainer */}
@@ -31,6 +31,6 @@ export default function StepThree () {
           </div>
         </section>
       </form>
-    </div>
+    </>
   )
 }

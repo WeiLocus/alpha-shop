@@ -4,12 +4,11 @@ import {ReactComponent as RightArrow} from '../../assets/icons/right-arrow.svg'
 
 export default function ProcessControl () {
   return (
-    <div>
-      <div className={styles.hr}></div>
-        <StepOneProgressControl />
-        {/* <StepTwoProgressControl />
-        <StepThreeProgressControl /> */}
-    </div>
+    <section className={styles.progressControlContainer}>
+        {/* <StepOneProgressControl /> */}
+        <StepTwoProgressControl />
+        {/* <StepThreeProgressControl /> */}
+    </section>
   )
 }
 
@@ -43,7 +42,7 @@ function StepTwoProgressControl () {
     <div>
       <section className={styles.buttonGroup} data-phase="shipping">
         <PrevBtn />
-        <NextBtn/>
+        <NextBtn />
       </section>
     </div>
   )

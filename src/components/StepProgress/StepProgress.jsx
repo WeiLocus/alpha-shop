@@ -4,9 +4,8 @@ import {ReactComponent as Complete} from '../../assets/icons/pg-complete.svg'
 
 function StepProgress () {
   return (
-  <div>
-  <div className={styles.stepProgressWrapper}>
-    <h2 className="register-title">結帳</h2>
+    <>
+    <h2 className={styles.registerTitle}>結帳</h2>
     {/* register-progress */}
       <section className={styles.progressContainer}>
         <span className={styles.progressGroup}data-phase="address">
@@ -26,8 +25,7 @@ function StepProgress () {
           <span className={styles.progressLabel}>付款資訊</span>
         </span>
       </section>
-    </div>
-  </div>
+    </>
   )
 }
 

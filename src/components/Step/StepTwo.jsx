@@ -2,7 +2,7 @@ import styles from '../Step/StepTwo.module.css'
 
 export default function StepTwo () {
   return (
-    <div>
+    <>
       <form className={styles.stepPanel} data-phase="shipping">
         <h3 className="formTitle">運送方式</h3>
         {/* deliverContainer */}
@@ -32,6 +32,6 @@ export default function StepTwo () {
           </label>
         </section>
       </form>
-    </div>
+    </>
   )
 }

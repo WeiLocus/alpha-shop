@@ -1,13 +1,14 @@
-.stepProgressWrapper {
-  width: 500px;
-  height: 150px;
+.registerTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
 }
-
 .progressContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  width: 500px;
+  margin-top: 48px;
 }
 
 .progressGroup {
@@ -16,10 +17,13 @@
 }
 
 .progressBar {
+  display: flex;
+  flex-grow: 1;
   display: block;
-  width: 50px;
+  margin: 0 5px;
+  max-width: 60px;
   height: 2px;
-  background-color: #000;
+  background-color: black;
 }
 
 .progressLabel {
