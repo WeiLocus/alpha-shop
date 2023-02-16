@@ -29,32 +29,32 @@ function OrderBtn () {
 
 function StepOneProgressControl () {
   return (
-    <div>
+    <>
       <section className={styles.buttonGroup} data-phase="address">
         <NextBtn/>
       </section>
-    </div>
+    </>
   )
 }
 
 function StepTwoProgressControl () {
   return (
-    <div>
+    <>
       <section className={styles.buttonGroup} data-phase="shipping">
         <PrevBtn />
         <NextBtn />
       </section>
-    </div>
+    </>
   )
 }
 
 function StepThreeProgressControl () {
   return (
-    <div>
+    <>
       <section className={styles.buttonGroup} data-phase="credit-card">
         <PrevBtn />
         <OrderBtn />
       </section>
-    </div>
+    </>
   )
 }
