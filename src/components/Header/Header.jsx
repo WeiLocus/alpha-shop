@@ -1,12 +1,12 @@
 
-import {ReactComponent as Toggle} from '../../assets/icons/toggle.svg'
-import {ReactComponent as Cart} from '../../assets/icons/cart.svg'
-import {ReactComponent as Search} from '../../assets/icons/search.svg'
-import {ReactComponent as Moon} from '../../assets/icons/moon.svg'
-import {ReactComponent as Sun} from '../../assets/icons/sun.svg'
-import {ReactComponent as Logo} from '../../assets/icons/logo.svg'
+import {ReactComponent as Toggle} from 'assets/icons/toggle.svg'
+import {ReactComponent as Cart} from 'assets/icons/cart.svg'
+import {ReactComponent as Search} from 'assets/icons/search.svg'
+import {ReactComponent as Moon} from 'assets/icons/moon.svg'
+import {ReactComponent as Sun} from 'assets/icons/sun.svg'
+import {ReactComponent as Logo} from 'assets/icons/logo.svg'
 
-import styles from '../Header/Header.module.css'
+import styles from './Header.module.css'
 
 export default function Header () {
   return (

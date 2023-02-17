@@ -1,6 +1,6 @@
-import styles from '../Step/Step.module.css'
-import SelectLocation from '../Step/SelectLocation'
-import LocationOption from  '../Step/LocationOption'
+import styles from './Step.module.css'
+import SelectLocation from './SelectLocation'
+import LocationOption from  './LocationOption'
 
 export default function Step () {
   return (

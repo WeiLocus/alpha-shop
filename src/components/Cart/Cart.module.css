@@ -18,7 +18,7 @@
   height: 100px;
 }
 
-.productInfo {;
+.productInfo {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;

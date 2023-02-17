@@ -1,6 +1,6 @@
 
 import styles from './StepProgress.module.css'
-import {ReactComponent as Complete} from '../../assets/icons/pg-complete.svg'
+import {ReactComponent as Complete} from 'assets/icons/pg-complete.svg'
 
 function StepProgress () {
   return (

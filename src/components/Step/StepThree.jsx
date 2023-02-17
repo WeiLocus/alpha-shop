@@ -1,4 +1,4 @@
-import styles from '../Step/Step.module.css'
+import styles from './Step.module.css'
 
 export default function StepThree () {
   return (
